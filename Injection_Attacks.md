@@ -1,3 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pentesting intro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Injection Attacks</h1>
 ## **5.1 Introduction to Injection Attacks**
 
 Injection attacks are a class of security vulnerabilities where an attacker "injects" malicious input into a program. This input is then interpreted as part of a command or query by the underlying system. The most common form of injection is SQL Injection (SQLi), which exploits insecure code that dynamically builds SQL queries by concatenating unvalidated user input. The result is unauthorized data access or manipulation, and in some cases, full control over the system.
