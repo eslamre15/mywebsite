@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -30,6 +30,7 @@
             <li><a href="ai_ml.html">AI & Machine Learning in Security</a></li>
             <li><a href="malware_analysis.html">Malware Analysis</a></li>
             <li><a href="anomaly_detection.html">anomaly_detection</a></li>
+              <li><a href="Injection Attacks.md">Injection Attacks</a></li>
         </ul>
     </div>
 </body>
