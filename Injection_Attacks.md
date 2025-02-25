@@ -25,6 +25,9 @@
 </head>
 <body>
     <h1>Injection Attacks</h1>
+
+
+    
 ## **5.1 Introduction to Injection Attacks**
 
 Injection attacks are a class of security vulnerabilities where an attacker "injects" malicious input into a program. This input is then interpreted as part of a command or query by the underlying system. The most common form of injection is SQL Injection (SQLi), which exploits insecure code that dynamically builds SQL queries by concatenating unvalidated user input. The result is unauthorized data access or manipulation, and in some cases, full control over the system.
